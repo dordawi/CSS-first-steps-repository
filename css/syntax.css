@@ -1,4 +1,22 @@
+/*****************************************************
+*
+*Autor: Dorota Dawidowicz
+*Date: 9.07.2021
+*
+*****************************************************/
+
+/* style all p tags */
 p {
   font-size: 18px;
-  color: blue;
+  color: rgb(255, 72, 0);
+}
+
+
+#header p {font size: 24;}
+
+
+/* Style all header tags */
+
+h1 {
+  font-size: 44 px;
 }
