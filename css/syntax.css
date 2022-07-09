@@ -1,6 +1,9 @@
-p {
-  color: red !important;
-}
-#main-content {
-  color: green;
+p,
+span,
+a,
+li {
+  color: red;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
 }
