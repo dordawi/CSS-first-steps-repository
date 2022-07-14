@@ -1,6 +1,9 @@
-article p:first-child {
-  font-weight: bold;
-}
-article p:last-child {
+a:hover {
   color: red;
+}
+a:active {
+  background-color: aqua;
+}
+a:visited {
+  color: darkmagenta;
 }
