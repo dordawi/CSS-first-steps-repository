@@ -1,15 +1,6 @@
-span[class~="deck"] {
-  color: purple;
+article p:first-child {
+  font-weight: bold;
 }
-div[id] {
-  background-color: gray;
-}
-a[title="search engine"] {
+article p:last-child {
   color: red;
-}
-a[href$=".pdf"] {
-  color: blue;
-}
-a[href^="http"] {
-  background-color: aquamarine;
 }
