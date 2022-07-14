@@ -1,9 +1,16 @@
-h1 {
-  font-size: 48px;
+article h2,
+article p {
+  font-family: arial, helvetica, sans-seriff;
 }
-article h2 {
-  font-size: 4em;
+a {
+  text-decoration: none;
 }
-p {
-  font-size: 50%;
+article {
+  text-decoration: overline;
+}
+a {
+  text-decoration: inherit;
+}
+a {
+  text-decoration: line-through;
 }
