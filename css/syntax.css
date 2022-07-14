@@ -1,9 +1,6 @@
-a:hover {
+article p:first-of-type {
+  font-weight: bold;
+}
+article p:last-of-type {
   color: red;
-}
-a:active {
-  background-color: aqua;
-}
-a:visited {
-  color: darkmagenta;
 }
