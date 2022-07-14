@@ -1,13 +1,14 @@
-li:nth-child(1),
-li:nth-child(7) {
+article:nth-child(2) {
+  background-color: blueviolet;
+}
+
+p:nth-of-type(2) {
+  color: blue;
+}
+
+article:nth-last-of-type(odd) {
   font-weight: bold;
 }
-li:nth-child(even) {
-  background-color: aquamarine;
-}
-li:nth-child(odd) {
-  background-color: cadetblue;
-}
-li:nth-child(3n + 1) {
-  color: darkorchid;
+article:nth-last-of-type(2n + 1) {
+  color: darkgreen;
 }
