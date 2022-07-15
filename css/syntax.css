@@ -1,10 +1,29 @@
 .box {
-  padding: 30px;
-  border: 2px solid #000;
+  padding: 20px;
   margin: 20px;
+  float: left;
 }
-.small {
-  padding: 5px;
-  margin: 20px;
-  border: 1px solid #000;
+.dashed {
+  border: 1px blue dashed;
+}
+.dotted {
+  border: 1px blue dotted;
+}
+.double {
+  border: 4px blue double;
+}
+.groove {
+  border: 4px blue groove;
+}
+.inset {
+  border: 4px blue inset;
+}
+.outset {
+  border: 4px blue outset;
+}
+.ridge {
+  border: 4px blue ridge;
+}
+.solid {
+  border: 4px blue solid;
 }
