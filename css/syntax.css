@@ -1,9 +1,30 @@
-.static-width {
-  width: 300px;
-  height: 100px;
-  background-color: rebeccapurple;
-  background-image: url(szablon.jpg);
-  background-repeat: no-repeat;
-  background-position: 20px 20px;
-  background-size: 200px;
+#circle1 {
+  width: 400px;
+  position: absolute;
+  background: rgb(200, 200, 100);
+  border-radius: 200px;
+  top: 50px;
+  left: 50px;
+  opacity: 1;
+}
+
+#circle-2 {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  background: rgb(200, 100, 200);
+  border-radius: 200px;
+  top: 250px;
+  left: 150px;
+  opacity: 0.5;
+}
+
+#circle-3 {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  background: rgb(100, 200, 200);
+  border-radius: 200px;
+  top: 50px;
+  left: 250px;
 }
